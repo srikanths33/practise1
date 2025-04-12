@@ -1,1 +1,12 @@
-<p>dashboard works!</p>
+<div class="main">
+    <div class="left">
+        <h2><span>&#9776;</span>Menu</h2>
+        <h2 routerLink="allstudents">All students</h2>
+        <h2 routerLink="createstudent">Create student</h2>
+        <button routerLink="/login">Logout</button>
+        </div>
+        <div class="right">
+                <router-outlet></router-outlet>
+        
+        </div>
+</div>

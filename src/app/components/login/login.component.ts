@@ -22,6 +22,8 @@ export class LoginComponent {
         alert("login successful");
         // Go to dashboard
         this.router.navigateByUrl("/dashboard")
+        // token storage
+        sessionStorage.setItem('token',data.token);
 
       },
       err=>{
